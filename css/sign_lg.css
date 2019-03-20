@@ -1,0 +1,6 @@
+@import "main_lg.css";
+@media (min-width:992px) and (max-width:1199px){
+    .login{width:70%;min-height:500px;}
+    .log-img, .log-body{min-height:500px;}
+    .log-body{padding:156px 55px 55px;}
+}

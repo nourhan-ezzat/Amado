@@ -1,0 +1,11 @@
+@media (max-width:576px){
+    .aside{width:100%;min-height:unset;}
+    .row{width:100%;}
+    .column{width:100%;min-height:500px;}
+    .body{padding-top:100px;padding-bottom:0;}
+    .subscribe{min-height:100px;}
+    .button input[type="text"]{width:70%;}
+    .button input[type="button"]{width:30%;padding:18px 10px;}
+    .description, .button, .menu{width:100%;float:unset;}
+    .menu{min-height:0;}
+}

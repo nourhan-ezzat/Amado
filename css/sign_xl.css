@@ -1,0 +1,46 @@
+@import "main_xl.css";
+.sign{
+    width:80%;
+    height:auto;
+    min-height:869px;
+    padding-top:60px;
+    float:right;
+}
+.sign-img, .sign-body{width:50%;float:left;}
+.sign-img{height:auto;min-height:800px;}
+.sign-img img{width:100%;vertical-align:middle;}
+.sign-body{
+    height:auto;
+    min-height:809px;
+    padding:173px 55px 55px 55px;
+    background-color:#f7f7f7;
+}
+.sign-body h1{
+    margin:0;
+    padding-bottom:45px;
+    color:#333;
+    text-align:center;
+    font-size:30px;
+}
+.sign-form input[type=text], .sign input[type=email], .sign input[type=password]{
+    width:100%;
+    height:80px;
+    padding:0 26px;
+    margin-bottom:10px;
+    color:#999;
+    font-size:18px;
+    border:1px solid #e6e6e6;
+    border-radius:10px;
+    background-color:transparent;
+}
+.sign-body input[type=submit]{
+    width:100%;
+    height:50px;
+    padding:0 20px;
+    color:#fff;
+    border:unset;
+    cursor:pointer;
+    font-size:12px;
+    text-transform:uppercase;
+    background-color:#fbb710;
+}

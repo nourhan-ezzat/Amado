@@ -1,0 +1,9 @@
+@media (min-width:768px) and (max-width:991px){
+    .aside{width:30%;padding:60px;}
+    .row{width:70%;}
+    .column{width:100%;}
+    .body{padding-top:100px;padding-bottom:0;}
+    .subscribe{min-height:100px;}
+    .description, .button, .menu{width:100%;float:unset;}
+    .menu{min-height:0;}
+}

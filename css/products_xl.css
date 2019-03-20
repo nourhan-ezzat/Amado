@@ -1,0 +1,124 @@
+@import "main_xl.css";
+.product{
+    width:80%;
+    height:auto;
+    min-height:869px;
+    float:left;
+}
+.sideBar{
+    width:20%;
+    height:auto;
+    min-height:869px;
+    padding:60px 40px;
+    float:left;
+    background-color:#f5f7fa;
+}
+.categories, .brands{margin-bottom:50px;}
+.catTitle h6{
+    margin:0 0 30px 0;
+    color:#242424;
+    font-size:16px;
+}
+.catMenu ul{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+.catMenu ul li a{
+    padding:15px 0 15px 20px;
+    display:block;
+    color:#959595;
+    cursor:pointer;
+    font-size:16px;
+    text-decoration:none;
+}
+.catMenu ul li.active a{color:#fbb710;}
+.catMenu ul li a:hover, .catCheck label:hover{color:#fbb710;}
+.check{margin-bottom:25px;}
+.catCheck label{
+    color:#959595;
+    cursor:pointer;
+    font-size:16px;
+}
+.products{
+    width:80%;
+    height:auto;
+    min-height:869px;
+    margin:0 auto;
+    float:left;
+}
+.row{
+    width:100%;
+    height:auto;
+    min-height:500px;
+    margin-bottom:20px;
+    float:left;
+}
+.productBody{
+    width:48%;
+    height:auto;
+    min-height:400px;
+    margin:0 8px;
+    float:left;
+}
+.productImg{
+    width:100%;
+    height:auto;
+    min-height:334px;
+}
+.productImg img{
+    width:100%;
+    height:auto;
+    vertical-align:middle;
+}
+.productDesc{
+    width:100%;
+    height:auto;
+    min-height:70px;
+    line-height:70px;
+}
+.productName, .productSalary{
+    width:50%;
+    height:auto;
+    float:left;
+}
+.productSalary{position:relative;}
+.productName h3, .productSalary p{margin:0;font-size:24px;}
+.productName h3{color:#242424;}
+.productSalary p{
+    color:#fbb710;
+    font-weight:bold;
+    text-align:right;
+}
+.productSalary p:before{
+    width:60%;
+    height:2px;
+    content:"";
+    position:absolute;
+    right:0;
+    bottom:50px;
+    background-color:#fbb710;
+}
+.productBtn{
+    width:100%;
+    height:auto;
+    min-height:70px;
+    line-height:70px;
+}
+.productCart, .productFav{width:50%;float:left;}
+.productFav{text-align:right;}
+.productCart input[type=button], .productFav input[type=button]{
+    padding:20px;
+    color:#fff;
+    border:unset;
+    cursor:pointer;
+    background-color:#fbb710;
+}
+.productCart input[type=button]:hover, .productFav input[type=button]:hover{background-color:#000;}
+
+/* .productSalary p:before{
+    content:"-";
+    width:100px;
+    height:20px;
+    color:#fbb710;
+} */

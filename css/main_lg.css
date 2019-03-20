@@ -1,0 +1,9 @@
+@media (min-width:992px) and (max-width:1199px){
+    .aside{width:30%;padding:60px 30px 0 30px;}
+    .row{width:70%;}
+    .aside, .row{min-height:800px;}
+    .column{width:33.3%;}
+    .column:nth-child(3) .content:nth-child(2), .column:nth-child(3) .content:nth-child(3){display:block;}
+    .button input[type=text]{width:70%;}
+    .button input[type=button]{width:30%;}
+}

@@ -1,0 +1,94 @@
+@import "main_xl.css";
+.check{
+    width:80%;
+    height:auto;
+    min-height:869px;
+    padding:60px 0;
+    float:left;
+}
+.check h2{
+    width:70%;
+    margin-top:0;
+    float:left;
+    color:#242424;
+    font-size:30px;
+}
+.checkBody{
+    width: 100%;
+    height:auto;
+    min-height:869px;
+    float:left;
+}
+.checkDetails{
+    width:65%;
+    height:auto;
+    margin-right:25px;
+    float:left;
+}
+.checkDetails table{border-collapse:collapse;}
+.checkDetails table thead tr{
+    width:100%;
+    height:auto;
+    min-height:40px;
+    background-color:#f5f7fa;
+}
+.checkDetails table thead tr th{
+    width:30%;
+    padding:12px;
+    color:#242424;
+    font-size:12px;
+    font-weight:bold;
+    text-align:left;
+}
+.checkDetails table tbody tr{
+    width:100%;
+    height:auto;
+    min-height:153px;
+}
+.prodImg, .prodName, .prodSalary, .prodQty{
+    width:30%;
+    height:auto;
+    padding:12px;
+}
+.prodImg{min-height:130px;}
+.prodName, .prodSalary, .prodQty{min-height:50px;}
+.prodImg img{width:100%;vertical-align:middle;}
+.prodName h3, .prodSalary p, .prodQty p{
+    margin:0;
+    color:#252525;
+    font-size:16px;
+}
+.checkTotal{
+    width:30%;
+    height:auto;
+    min-height:330px;
+    padding:30px 20px;
+    float:left;
+    background-color:#f5f7fa;
+}
+.checkTotal h2{width:100%;margin-top:0;}
+.totalContent ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+.totalContent ul li p:nth-child(1){
+    width:80%;
+    margin:0;
+    float:left;
+}
+.totalContent ul li p{
+    color:#6b6b6b;
+    font-size:14px;
+    font-weight:bold;
+}
+.totalBtn{margin-top:100px;text-align:center;}
+.totalBtn input[type=button]{
+    width:100%;
+    padding:20px;
+    color:#fff;
+    border:unset;
+    cursor:pointer;
+    font-size:18px;
+    background-color:#fbb710;
+}

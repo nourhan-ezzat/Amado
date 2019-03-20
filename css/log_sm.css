@@ -1,0 +1,9 @@
+@import "main_sm.css";
+@media (min-width:576px) and (max-width:767px){
+    .aside{width:100%;padding:60px 75px 0;}
+    .login{width:100%;padding-top:0;}
+    .aside, .login{float:unset;min-height:400px;}
+    .log-img, .log-body{min-height:200px;}
+    .log-body{padding:81px 55px 80px;}
+    .log-form input[type="text"], .login input[type="password"]{height:60px;}
+}
